@@ -23,6 +23,6 @@ libraries{
   sonarqube
  // github
  // docker
- // maven
+  maven
  // gradle
 }
