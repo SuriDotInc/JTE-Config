@@ -11,7 +11,6 @@ application_environments{
     }
 }
 
-
 /*
   specify which libraries to load: 
     In the Governance Tier configuration file, 
@@ -23,6 +22,6 @@ libraries{
   sonarqube
  // github
  // docker
-  maven
+ // maven
  // gradle
 }
