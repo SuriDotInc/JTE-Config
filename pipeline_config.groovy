@@ -1,3 +1,17 @@
+// restrict individual repository Jenkinsfiles
+allow_scm_jenkinsfile = false
+
+// define application environment objects
+application_environments{
+    dev{
+        long_name = "Development"
+    }
+    prod{
+        long_name = "Production"
+    }
+}
+
+
 /*
   specify which libraries to load: 
     In the Governance Tier configuration file, 
@@ -7,4 +21,6 @@
 libraries{
   merge = true 
   sonarqube
+  github
+  docker
 }
