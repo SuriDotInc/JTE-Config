@@ -24,5 +24,5 @@ libraries{
  // github
  // docker
   maven
-  gradle
+ // gradle
 }
