@@ -21,6 +21,8 @@ application_environments{
 libraries{
   merge = true 
   sonarqube
-  github
-  docker
+ // github
+ // docker
+  maven
+  gradle
 }
