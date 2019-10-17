@@ -1,5 +1,5 @@
 // restrict individual repository Jenkinsfiles
-allow_scm_jenkinsfile = true
+allow_scm_jenkinsfile = false
 
 // define application environment objects
 application_environments{
