@@ -19,9 +19,7 @@ application_environments{
 */
 libraries{
   merge = true 
-  sonarqube{
-    credential_id = mydockersonarqube
-  }
+  sonarqube
  // github
  // docker
  // maven
